@@ -1,0 +1,43 @@
+.gameOver-form-main-container {
+  height: 100vh;
+  background-color: #f8002f;
+  background-image: linear-gradient(305deg, #f8002f 0%, #000c14 65%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.game-over-avatar {
+  background-image: url('https://wallpapers.com/images/hd/gun-squid-game-pfp-8u0ssyfg70usj8gd.jpg');
+  background-size: cover;
+  width: 580px;
+  height: 370px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.game-over-button {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 20px;
+  padding: 8px 16px;
+  color: #f8002f;
+  background-color: #00000000;
+  border: none;
+  border-radius: 4px;
+  margin-left: 14px;
+  cursor: pointer;
+  outline: none;
+  border-width: 2px;
+  border-color: #f8002f;
+  border-style: solid;
+  margin-bottom: 20px;
+}
+
+.game-over-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+}

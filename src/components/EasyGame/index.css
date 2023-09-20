@@ -1,0 +1,94 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto';
+  min-height: 100vh;
+  max-height: 100%;
+  width: 100vw;
+}
+
+.top-image {
+  width: 130px;
+  height: 50px;
+}
+
+.nav-bar {
+  width: 100vw;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+  padding: 20px;
+}
+
+.score-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  list-style-type: none;
+}
+
+.score-name {
+  color: #ffffff;
+  font-size: 12px;
+  margin-right: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.score {
+  color: #fec653;
+  font-size: 26px;
+  margin-right: 20px;
+}
+
+.time {
+  color: #fec653;
+  font-size: 22px;
+  margin-right: 20px;
+}
+
+.timer-icon {
+  color: #ffffff;
+  font-size: 35px;
+  padding-right: 3px;
+}
+
+.score-name-word {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 30px;
+  padding-right: 10px;
+}
+
+.content-div {
+  background-image: url('https://assets.teenvogue.com/photos/615afb5782acc6b155109f61/16:9/w_1280,c_limit/SquidGame_Unit_101_002.jpg');
+  background-size: cover;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  padding-right: 320px;
+}
+
+.box {
+  width: 190px;
+  height: 190px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 10px;
+  box-shadow: 20px 10px 60px -3px rgba(0, 0, 0, 0.38);
+}
+
+.box-text {
+  color: #000000;
+  font-family: 'Roboto';
+  font-weight: 600;
+  text-align: center;
+  padding-top: 70px;
+}

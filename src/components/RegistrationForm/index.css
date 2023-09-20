@@ -1,0 +1,92 @@
+.registration-form-main-container {
+  height: 100vh;
+  background-color: #f8002f;
+  background-image: linear-gradient(305deg, #f8002f 0%, #000c14 65%);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.registration-game-avatar {
+  width: 580px;
+  height: 373.5px;
+  object-fit: cover;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 350px;
+  background-color: #ffffff;
+  box-shadow: 10px 5px 30px -3px rgba(0, 0, 0, 0.38);
+}
+
+.form-input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.form-input-field {
+  font-size: 14px;
+  height: 40px;
+  border: 1px solid #d7dfe9;
+  background-color: #00000000;
+  color: #000000;
+  border-radius: 2px;
+  margin-top: 5px;
+  padding: 8px 16px 8px 16px;
+  outline: none;
+}
+
+.form-label-input {
+  margin-bottom: 1px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  color: #475569;
+  margin-top: 0px;
+}
+
+.error-msg {
+  align-self: start;
+  font-size: 12px;
+  margin-top: 3px;
+  margin-bottom: 0px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  line-height: 16px;
+  color: #ff0b37;
+}
+
+.registration-submit-button {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+  height: 40px;
+  width: 100%;
+  margin-top: 2px;
+  margin-bottom: 12px;
+  background-color: #c62128;
+  background-image: linear-gradient(147deg, #c62128 0%, #a00000 74%);
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.register-heading {
+  font-family: 'Roboto';
+}
+
+.main-game-heading-name {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+}

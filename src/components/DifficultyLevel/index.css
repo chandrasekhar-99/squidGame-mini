@@ -1,0 +1,21 @@
+.level-container {
+  background-image: url('https://wallpapersmug.com/download/3840x2160/269acc/squid-game-tv-show-fan-art-poster.jpg');
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  padding-right: 50px;
+}
+
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  padding-top: 320px;
+}

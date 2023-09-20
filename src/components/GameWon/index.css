@@ -1,0 +1,43 @@
+.gameWon-form-main-container {
+  height: 100vh;
+  background-color: #f8002f;
+  background-image: linear-gradient(305deg, #f8002f 0%, #000c14 65%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.game-won-avatar {
+  background-image: url('https://imageio.forbes.com/specials-images/imageserve/615c45a2933e114dfd9d27ec/Squid-Game/960x0.jpg?format=jpg&width=960');
+  background-size: cover;
+  width: 580px;
+  height: 370px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.game-won-button {
+  font-family: 'Roboto';
+  font-weight: 800;
+  font-size: 20px;
+  padding: 8px 16px;
+  color: #000000;
+  background-color: #00000000;
+  border: none;
+  border-radius: 4px;
+  margin-left: 14px;
+  cursor: pointer;
+  outline: none;
+  border-width: 4px;
+  border-color: #000000;
+  border-style: solid;
+  margin-bottom: 20px;
+}
+
+.game-won-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+}
